@@ -1,18 +1,24 @@
-.hero {
+.hero_container {
   width: 100%;
   display: flex;
   padding: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.hero_image_container {
   padding-top: 100px;
 }
 
 .hero_image {
   width: 300px;
-  left: 200px;
   object-fit: contain;
-  padding-right: 100px;
 }
 
 .hero_bio {
-  position: fixed;
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-right: 50px;
   right: 30px;
 }
