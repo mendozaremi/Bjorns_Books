@@ -14,10 +14,9 @@ function Hero() {
       <div className="hero_bio">
         <h1>HI I'M BJÖRN</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          This website is to show you great kid's books and my persoanl
+          favorites! My uncle Remi designed this website to show off some of the
+          awesome books I wish I had.
         </p>
       </div>
     </div>
