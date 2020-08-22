@@ -1,13 +1,13 @@
 .hero_container {
   width: 100%;
   display: flex;
-  padding: 30px;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 
 .hero_image_container {
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-left: 80px;
 }
 
 .hero_image {
@@ -16,9 +16,13 @@
 }
 
 .hero_bio {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-left: 150px;
   padding-right: 150px;
-  margin-right: 50px;
+  /* margin-right: 50px; */
   right: 30px;
+}
+
+p {
+  padding-top: 20px;
 }

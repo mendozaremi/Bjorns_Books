@@ -1,7 +1,7 @@
 .nav_container {
   display: flex;
   justify-content: center;
-  padding: 30px 10%;
+  padding: 15px 10%;
   align-items: center;
   background-color: #30e3ca;
 }
@@ -10,6 +10,10 @@
   cursor: pointer;
   margin-right: auto;
   font-family: 'Inter', sans-serif;
+}
+
+.nav_logo:hover {
+  color: #a2f0e5;
 }
 
 .nav_links {
@@ -23,31 +27,36 @@
 
 .nav_links li a {
   transition: all 0.3s ease 0s;
+  text-decoration: none;
+  padding: 20px;
+  color: inherit;
+  font-size: small;
+}
+
+.nav_links li a:hover {
+  color: aliceblue;
+}
+
+.nav_account {
+  width: 20px;
+  border-radius: 50%;
 }
 
 button {
   margin-left: 20px;
-  padding: 9px 5px;
+  padding: 2px;
   border: none;
   border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  background: none;
 }
 
-/* .nav_browser {
-  background-color: #41444b;
-  font-family: fantasy;
-}
-
-.nav_bestsellers {
-  background-color: #41444b;
-}
-.nav_cart {
-  right: 20px;
-  width: 40px;
-  object-fit: contain;
+button:hover {
+  background-color: aliceblue;
 }
 
 .nav_account {
   width: 40px;
   object-fit: 40px;
   border-radius: 50%;
-} */
+}

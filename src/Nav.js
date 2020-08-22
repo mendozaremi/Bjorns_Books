@@ -4,7 +4,7 @@ import './Nav.css';
 function Nav() {
   return (
     <header className="nav_container">
-      <h4 className="nav_logo">Björn's Books</h4>
+      <h5 className="nav_logo">Björn's Books</h5>
       <ul className="nav_links">
         <li>
           <a href="#">Catalogue</a>
@@ -16,7 +16,13 @@ function Nav() {
           <a href="#">Cart</a>
         </li>
       </ul>
-      <div></div>
+      <button>
+        <img
+          className="nav_account"
+          src="https://i7.pngguru.com/preview/393/995/701/aspria-fitness-computer-icons-user-clip-art-my-account-icon-thumbnail.jpg"
+          alt="profile"
+        />
+      </button>
     </header>
   );
 }
