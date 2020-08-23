@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import Nav from './Nav.js';
 import Hero from './Hero';
+import Books from './Books';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -9,8 +11,8 @@ function App() {
       <header className="App-header">
         <Nav />
         <Hero />
-        {/* Books  */}
-        {/* Footer */}
+        <Books />
+        <Footer />
       </header>
     </div>
   );
